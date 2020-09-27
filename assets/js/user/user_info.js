@@ -27,7 +27,6 @@ $(function() {
     });
     $('.layui-form').on('submit', function(e) {
         e.preventDefault();
-        console.log($(this).serialize());
         $.ajax({
             method: 'post',
             url: '/my/userinfo',
