@@ -133,7 +133,7 @@ $(function () {
                     let htmlStr = template('article-cate', res);
                     // $('[name=cate_id]').html(htmlStr);
                     $('select[name="cate_id"]').html(htmlStr);
-                    $('select[name="cate_id"]').val(id)
+                    $('.select_cate').val(id)
                     form.render();
                 }
             });
